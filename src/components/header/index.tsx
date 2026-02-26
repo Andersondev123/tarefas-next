@@ -21,7 +21,7 @@ export function Header(){
                     )}
                 </nav>
                     
-                {status === "loading" ? (
+                {status === "loading" ?(
                     <></>
                 ): session ? (
                     <button className={styles.loginButton} onClick={()=> signOut()}>
